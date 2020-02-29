@@ -1,6 +1,7 @@
 #!/bin/sh
-cd /
-wget / https://github.com/lrz2010/Dungeon-Fighter-Online-Server/raw/master/DNFServer.tar.gz
+cd / 
+wget --no-check-certificate -O DNFServer.tar.gz https://github.com/lrz2010/Dungeon-Fighter-Online-Server/raw/master/DNFServer.tar.gz
+wait
 function install() {
 	centos=`cat /etc/redhat-release`
     XT=`cat /etc/redhat-release | awk '{print $3}'| cut -b1`
@@ -15,7 +16,7 @@ function install() {
     IP=`curl -s https://www.boip.net/api/myip`
     fi
 	echo "
-================================服务器配置================================
+================================SERVER================================
   
 System Version：$centos   $W 位
 
@@ -26,9 +27,9 @@ CPU core：$HX核
 
 Running Memory：$G
 
-===============================硬盘使用情况===============================
+==============================================================
 $DD	"
-	done
+
 	servicel
 	service2
 	service3
@@ -52,6 +53,7 @@ function centos5() {
 	echo "Detected system is centos 5"
 	echo " "
 	cd /
+	wait
 	echo "Decompressing one-click file"
 	tar -zxvf DNFServer.tar.gz
 	cd /home/neople
@@ -94,6 +96,7 @@ function centos6() {
 	echo "Detected system is centos 6"
 	echo " "
 	cd /
+	wait
 	echo "Decompressing one-click file"
 	tar -zxvf DNFServer.tar.gz
 	cd /home/neople
@@ -135,7 +138,7 @@ function centos7() {
 	echo " "
 	echo "Detected system is centos 7"
 	echo " "
-	cd /
+	cd /	wait
 	echo "Decompressing one-click file"
 	tar -zxvf DNFServer.tar.gz
 	cd /home/neople
