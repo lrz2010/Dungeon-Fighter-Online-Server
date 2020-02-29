@@ -20,7 +20,7 @@ Port:1234
 
 Database directory: /opt/lampp/var/mysql
 
-Upload PVF, public key, grade patch.
+Upload Script.pvf, publickey.pem, grade patch.
 Upload to folder: root/home/neople/game
 Run the command after the upload is complete:
 cd /root
@@ -37,7 +37,7 @@ cd /root;./stop;./stop;./run
 
 -------------------------------------------------------
 
-£¨Database Backup£©£º
+Database Backup
 
 Packaging command:
 tar -zcvf /root/backup.tar.gz /opt/lampp/var/mysql
