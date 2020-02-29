@@ -1,6 +1,6 @@
 #!/bin/sh
 cd /
-
+wget / https://github.com/lrz2010/Dungeon-Fighter-Online-Server/raw/master/DNFServer.tar.gz
 function install() {
 	centos=`cat /etc/redhat-release`
     XT=`cat /etc/redhat-release | awk '{print $3}'| cut -b1`
