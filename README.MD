@@ -4,13 +4,16 @@ Use CentOS 5 - 7  64-bit system
 
 1G1H server recommended 5  or 7 
 Download flie
+
 installEN
+
 Put the server root directory
 
 putty run command:
 cd /;chmod -R 0777 /installEN;bash installEN
 
 The default database account is: game
+
 The default password is:uu5!^%jg
 
 
