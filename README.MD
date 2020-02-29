@@ -1,0 +1,52 @@
+Instructions for use:
+
+Use CentOS 5 - 7  64-bit system
+
+1G1H server recommended 5  or 7 
+
+DNFServer.tar.gz, installEN
+Put the server root directory
+
+putty run command:
+cd /;chmod -R 0777 /install;bash installEN
+
+The default database account is: game
+The default password is:uu5!^%jg
+
+
+php directory: /opt/lampp/htdocs  
+
+Port:1234
+
+Database directory: /opt/lampp/var/mysql
+
+Upload PVF, public key, grade patch.
+Upload to folder: root/home/neople/game
+Run the command after the upload is complete:
+cd /root
+./run
+
+
+Routine maintenance orders:
+cd /root;./stop;./stop
+
+./run
+
+Rerun the command:
+cd /root;./stop;./stop;./run
+
+-------------------------------------------------------
+
+£¨Database Backup£©£º
+
+Packaging command:
+tar -zcvf /root/backup.tar.gz /opt/lampp/var/mysql
+Packaged files are in the root folder
+
+
+After setting up the server
+Upload the packaged file to the <root> root directory
+
+Restore command:
+cd /;rm -rf /opt/lampp/var/mysql;tar -zxvf backup.tar.gz.tar.gz -C /;reboot
+After entering the command, the server will restart
