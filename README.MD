@@ -8,7 +8,7 @@ installEN
 Put the server root directory
 
 putty run command:
-cd /;chmod -R 0777 /install;bash installEN
+cd /;chmod -R 0777 /installEN;bash installEN
 
 The default database account is: game
 The default password is:uu5!^%jg
