@@ -3,8 +3,8 @@ Instructions for use:
 Use CentOS 5 - 7  64-bit system
 
 1G1H server recommended 5  or 7 
-
-DNFServer.tar.gz, installEN
+Download flie
+installEN
 Put the server root directory
 
 putty run command:
