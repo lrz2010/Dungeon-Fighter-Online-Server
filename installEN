@@ -53,7 +53,6 @@ function centos5() {
 	echo "Detected system is centos 5"
 	echo " "
 	cd /
-	wait
 	echo "Decompressing one-click file"
 	tar -zxvf DNFServer.tar.gz
 	cd /home/neople
@@ -96,7 +95,6 @@ function centos6() {
 	echo "Detected system is centos 6"
 	echo " "
 	cd /
-	wait
 	echo "Decompressing one-click file"
 	tar -zxvf DNFServer.tar.gz
 	cd /home/neople
@@ -138,7 +136,7 @@ function centos7() {
 	echo " "
 	echo "Detected system is centos 7"
 	echo " "
-	cd /	wait
+	cd /
 	echo "Decompressing one-click file"
 	tar -zxvf DNFServer.tar.gz
 	cd /home/neople
