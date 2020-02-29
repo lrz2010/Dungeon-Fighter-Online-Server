@@ -24,7 +24,9 @@ Port:1234
 Database directory: /opt/lampp/var/mysql
 
 Upload Script.pvf, publickey.pem, grade patch.
+
 Upload to folder: root/home/neople/game
+
 Run the command after the upload is complete:
 cd /root
 ./run
