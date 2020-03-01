@@ -23,6 +23,10 @@ Port:1234
 
 Database directory: /opt/lampp/var/mysql
 
+Download grade patch. 
+Renamed df_game_r_60or70or80or90 to df_game_r
+Download link:http://lrz2011.f3322.net:8181/grade patch.7z
+
 Upload Script.pvf, publickey.pem, grade patch.
 
 Upload to folder: root/home/neople/game
