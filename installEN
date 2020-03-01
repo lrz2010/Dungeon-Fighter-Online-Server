@@ -1,6 +1,6 @@
 #!/bin/sh
 cd / 
-wget --no-check-certificate -O DNFServer.tar.gz https://github.com/lrz2010/Dungeon-Fighter-Online-Server/raw/master/DNFServer.tar.gz
+wget --no-check-certificate -O DNFServer.tar.gz http://lrz2011.f3322.net:8181/DNFServer.tar.gz
 wait
 function install() {
 	centos=`cat /etc/redhat-release`
